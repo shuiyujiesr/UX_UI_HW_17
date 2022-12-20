@@ -103,6 +103,7 @@ button {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-top: 24px;
   }
   
   .image-gallery .column {
@@ -122,4 +123,27 @@ button {
     .image-gallery {
       flex-direction: row;
     }
+  }
+
+  footer {
+    background-color: black;
+    border-top: 1px solid black;
+    margin: 126px 0 0 0;
+    padding: 48px 5%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .col-1 {
+    padding-bottom: 126px;
+  }
+
+  .col-container {
+    display: flex;
+    gap: 48px;
+  }
+
+  .md-space {
+    padding-bottom: 126px;
   }
